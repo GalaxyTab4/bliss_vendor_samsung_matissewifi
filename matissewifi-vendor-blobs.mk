@@ -200,7 +200,7 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libOmxQcelp13Dec.so:system/vendor/lib/libOmxQcelp13Dec.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libOmxWmaDec.so:system/vendor/lib/libOmxWmaDec.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libSHIMDivxDrm.so:system/vendor/lib/libSHIMDivxDrm.so \
-	vendor/samsung/matissewifi/proprietary/bin/mpdecision:system/bin/mpdecision \
+	vendor/samsung/matissewifi/proprietary/bin/mpdecision:system/bin/mpdecision-disabled \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libqc-opt.so:system/vendor/lib/libqc-opt.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libdiag.so:system/vendor/lib/libdiag.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libdsnetutils.so:system/vendor/lib/libdsnetutils.so \
