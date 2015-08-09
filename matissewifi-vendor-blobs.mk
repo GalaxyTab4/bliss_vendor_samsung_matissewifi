@@ -131,10 +131,14 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
 	vendor/samsung/matissewifi/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
 	vendor/samsung/matissewifi/proprietary/cameradata/datapattern_420sp.yuv:system/cameradata/datapattern_420sp.yuv \
-	vendor/samsung/matissewifi/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv \
+	vendor/samsung/matissewifi/proprietary/cameradata/datapattern_front_420sp.yuv:system/cameradata/datapattern_front_420sp.yuv 
+
+# DRM
+PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/bin/qseecomd:system/bin/qseecomd \
 	vendor/samsung/matissewifi/proprietary/framework/com.google.widevine.software.drm.jar:system/framework/com.google.widevine.software.drm.jar \
 	vendor/samsung/matissewifi/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
+	vendor/samsung/matissewifi/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
@@ -142,6 +146,12 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
+	vendor/samsung/matissewifi/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
+	vendor/samsung/matissewifi/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
+	vendor/samsung/matissewifi/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so
+
+# GPS
+PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
 	vendor/samsung/matissewifi/proprietary/lib/hw/flp.default.so:system/lib/hw/flp.default.so \
 	vendor/samsung/matissewifi/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
