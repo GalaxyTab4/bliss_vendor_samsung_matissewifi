@@ -303,8 +303,9 @@ PRODUCT_COPY_FILES += \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libmmwfdinterface.so:system/vendor/lib/libmmwfdinterface.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libmmwfdsinkinterface.so:system/vendor/lib/libmmwfdsinkinterface.so \
 	vendor/samsung/matissewifi/proprietary/vendor/lib/libmmwfdsrcinterface.so:system/vendor/lib/libmmwfdsrcinterface.so \
-	vendor/samsung/matissewifi/proprietary/bin/sshfs:system/bin/sshfs \
+	vendor/samsung/matissewifi/proprietary/bin/sshfs:system/bin/sshfs
 
 # ConsumerIR
 PRODUCT_COPY_FILES += \
+	vendor/samsung/matissewifi/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
 	vendor/samsung/matissewifi/proprietary/etc/permissions/android.hardware.consumerir.xml:system/etc/permissions/android.hardware.consumerir.xml 
